@@ -1,0 +1,2 @@
+java weka.filters.supervised.attribute.AttributeSelection -b -i 3rdyear.csv -o train_pca.arff -r 1styear.csv -s test_pca_output.arff -E "weka.attributeSelection.PrincipalComponents -R 0.7 -A 5" -S "weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1" 
+
